@@ -1,9 +1,16 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  wordReversed = word.split("").reverse().join("");
+  return word === wordReversed;
 }
 
 /* 
   Add your pseudocode here
+  input: "a word"
+    check if input is a palindrome
+      input should be reversed
+      check if input = inputReversed
+  output: true/false
 */
 
 /*
